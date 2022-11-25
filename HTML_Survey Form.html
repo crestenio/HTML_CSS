@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width==, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1>Employee Interests Survey Form</h1>
+    <form action="">
+      <label for="name">Enter your name:</label>
+      <input type="text" name="name" id="name" /><br />
+      <br />
+      <label for="department">Enter your department:</label>
+      <input type="text" name="department" id="department" />
+      <br />
+      <br />
+
+      <label for="message">Tell us a little about your self:</label>
+      <textarea name="message" rows="10" cols="30"></textarea>
+      <br />
+      <br />
+      <label for="">Do you exercise at home? </label>
+      <label for="yes">Yes?</label>
+      <input type="radio" name="yes" id="yes" />
+      <label for="no">No?</label>
+      <input type="radio" name="no" id="no" />
+      <br />
+      <br />
+
+      <label for="">How do you like to read about your favorite topics?</label>
+      <br>
+      <input type="checkbox" name="books" id="books" value="books">Books</input>
+      <input type="checkbox" name="online_resources" id="online_resources" value="online_resources">Online Resources</input>
+      <input type="checkbox" name="phone_apps" id="phone_apps" value="phone-apps">Phone Apps</input>
+      <input type="checkbox" name="Magazines" id="Magazines" value="Magazines">Magazines</input>
+      <br>
+      <br>
+      <label for="">What genres of movie do you like?</label>
+      <select id="movies" name="movies">
+        <option value="comedy">Comedy</option>
+        <option value="action">Action</option>
+        <option value="horror">Horror</option>
+      </select>
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
